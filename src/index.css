@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --cream: #faf6f0;
+  --cream-deep: #f3ece2;
+  --ink: #2e2a26;
+  --ink-soft: #6f655c;
+  --sage: #8aa68a;
+  --sage-deep: #6c8a6c;
+  --sage-light: #e4ebe2;
+  --terracotta: #d98a6f;
+  --border: #e8e0d4;
+  --shadow: 0 8px 30px rgba(46, 42, 38, 0.08);
+  --shadow-hover: 0 16px 40px rgba(46, 42, 38, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Fraunces', serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.kitchen-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 28px 48px;
+}
+
+.back-link {
+  border: none;
+  background: var(--cream-deep);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.back-link:hover {
+  background: var(--ink);
+  color: var(--cream);
+}
+
+.page-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-left: auto;
+}
+
+.page-main {
+  flex: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 48px 60px;
+  text-align: center;
+}
+
+.page-main h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.page-sub {
+  color: var(--ink-soft);
+  font-size: 17px;
+  margin-bottom: 48px;
+}
+
+.empty-state {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.empty-icon {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.empty-state h3 {
+  font-size: 22px;
+}
+
+.empty-state p {
+  color: var(--ink-soft);
+  margin-bottom: 20px;
+}
+
+.primary-btn {
+  border: none;
+  background: var(--sage-deep);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 720px) {
+  .page-header, .page-main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
